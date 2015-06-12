@@ -49,10 +49,10 @@ end
 
 group :production do
 
-  #pg postgres the production level db 
+  #pg postgres the production level db
   gem 'pg', '0.17.1'
 
   # the heroku database for production
   gem 'rails_12factor', '0.0.2'
-
+end
 end
